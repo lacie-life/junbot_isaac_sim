@@ -14,6 +14,7 @@ colcon build
 #### Importance note for simulation
 
 ```bash
+export FASTRTPS_DEFAULT_PROFILES_FILE=<path_to_ros2_ws>/fastdds.xml # add this to extra param in Isaac Sim when start 
 ros2 param set /rviz use_sim_time true
 ```
 
